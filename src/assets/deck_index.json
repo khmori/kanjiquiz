@@ -1,0 +1,50 @@
+{
+    "grade": 
+    {
+        "labels": ["一年生", "二年生", "三年生", "四年生", "五年生", "六年生"],
+        "files": ["gr1.json", "gr2.json", "gr3.json", "gr4.json", "gr5.json","gr6.json"]
+    },
+
+    "JLPT": 
+    {
+        "labels": ["N5", "N4", "N3", "N2", "N1"],
+        "files": ["n5.json", "n4.json", "n3.json", "n2.json", "n1.json"]
+    },
+
+    "kanken":
+    {
+        "labels": 
+        ["10級", 
+        "9級", 
+        "8級", 
+        "7級", 
+        "6級", 
+        "5級",
+        "4級",
+        "3級",
+        "準2級",
+        "2級"],
+
+        "files":
+        ["10k.csv", 
+        "9k.csv", 
+        "8k.csv", 
+        "7k.csv", 
+        "6k.csv", 
+        "5k.csv",
+        "4k.csv",
+        "3k.csv",
+        "j2k.csv",
+        "2k.csv"]
+    },
+
+    "other":
+    {
+        "labels":
+        ["四字熟語"],
+
+        "files":
+        ["yoji.csv"]
+
+    }
+}

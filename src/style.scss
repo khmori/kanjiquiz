@@ -1,0 +1,123 @@
+$bg: rgb(231, 251, 255);
+
+.main {
+    font-family: "Noto Sans JP";
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    margin: 0;
+    background-color: white;
+}
+
+.menu {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.ok-button {
+    width: 100%;
+    background-color: grey;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+.ok-button:hover {
+    background-color: black;
+}
+
+.set {
+    display: flex;
+    flex-direction: column;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+}
+
+.active, 
+.inactive {
+    padding:5px
+}
+
+.active {
+    font-weight: bold;
+}
+
+.inactive {
+    font-weight: normal;
+}
+
+.quiz {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    button {
+        background-color: white;
+        border: none;
+    }
+}
+
+.word-display {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+
+    font-size: 125px;
+    line-height: 150px;
+}
+
+.furigana {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+
+    margin: 0;
+    font-size: 30px;
+    opacity: 1;
+}
+
+.word-input {
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 16px;
+    margin: 10px;
+}
+
+.menu-button-container {
+    margin: 20px;
+}
+
+#menu-button { 
+    color: grey;
+    font-size: 15px;
+}
+
+#menu-button:hover {
+    color: black;
+}
+
+.info {
+    font-size: 30px;
+    display: flex;
+    margin: auto;
+}
+
+.tooltip {
+    color:black;
+}
